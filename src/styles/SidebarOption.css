@@ -1,0 +1,16 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebarOption:hover{
+    background-color: #e8f5fe;
+}
+.twitter-icons{
+    padding: 20px;
+}
+.twitter-heading-texts{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
