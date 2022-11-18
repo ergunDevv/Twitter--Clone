@@ -13,6 +13,7 @@
   .post__image {
     border-radius: 20px;
     width: 100%;    
+    max-width: 520px;
   }
   
   .post__footer {
