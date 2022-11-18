@@ -5,10 +5,11 @@ function TweetBox() {
   return <div className="tweetBox">
     <form>
       <div className="tweetBox__input">
-        <Avatar src=""/>
+        <Avatar src={require("../images/Ergun-modified.png")} />
         <input type="text"placeholder="What's happening?" />
       </div>
-      <Button>Tweet</Button>
+        <input type="text"placeholder="Optinal: Enter image URL" className="tweetBox__imageInput" />
+      <Button className="tweetBox__tweetButton">Tweet</Button>
 
     </form>
   </div>
