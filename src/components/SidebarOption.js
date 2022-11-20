@@ -5,7 +5,7 @@ function SidebarOption({active,text, Icon}) {
     <div className={`sidebarOption ${active &&"sidebarOption--active"} `}>
 
         <Icon className="twitter-icons"/>
-        <h2 className='twitter-heading-texts'>{text}</h2>
+        <h2 className='twitter-heading-texts sidebarTexts'>{text}</h2>
         
 
     </div>
